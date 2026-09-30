@@ -269,3 +269,23 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
+ .wa-float{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #25D366;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  z-index: 9999;
+  text-decoration: none;
+}
+.wa-float:hover {
+  transform: translateY(-1px);
+}
